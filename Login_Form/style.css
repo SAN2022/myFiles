@@ -1,0 +1,102 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#backside{
+    width: 101.2%;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    display: flex;
+}
+#lside{
+    width: 40%;
+    height: 700px;
+    background-color: mediumspringgreen;    
+}
+#rside{
+    width: 60%;
+    height: 700px;    
+    background-color: whitesmoke;
+}
+#page{
+    width: 70%;
+    height: 500px;
+    margin: 4em auto;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 2%;
+    left: 15.5%;
+    box-shadow: 1px 1px 10px 2px black;
+}
+#left{
+    width: 35%;
+    height: 100%;
+    background-color: mediumspringgreen;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+}
+#content{
+    margin: 0;
+    padding-top: 10em;
+}
+#content h2{
+    font-style: italic;
+}
+#content h3{
+    font-weight: 500;
+}
+/* ******************************LEFT END******************************* */
+#right{
+    width: 65%;
+    height: 100%;   
+    margin: 0;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#right a[href="needhelp"]{
+    margin-left: 31em;
+}
+#right form{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 4em;
+    /* background-color: mediumturquoise; */
+    box-sizing: border-box;
+}
+#right h3{
+    text-align: center;
+}
+#right h4{
+    margin: 0;
+    margin-bottom: 0.8em;
+    font-weight: 500;
+}
+[type]{
+    margin: 0;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border: 1.5px solid gainsboro;
+    padding-left: 8px;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+#right a[href="forgot"]{
+    margin-left: 16.3em;
+}
+button{
+    width: 100%;
+    border: none;
+    background-color: mediumspringgreen;
+    padding: 12px;
+    font-weight: bold;
+    margin-top: 4em;
+}
+/* ***************************GENERAL STYLES **************************/
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;        
+}
