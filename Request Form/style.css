@@ -1,0 +1,92 @@
+body{
+    background-color: cyan;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#top p{
+    padding-bottom: 2em;
+}
+#page{
+    width: 80%;
+    height: 600px;
+    margin: -1em auto;
+    /*background-color: beige;*/
+    box-sizing: border-box;
+    padding: 15px;
+}
+#bottom #left{
+    width: 55%;
+    height: 100%;
+    margin: 0;
+    float: left;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 1em 3em;
+}
+#bottom #right{
+    width: 45%;
+    height: 100%;
+    float: left;
+    background-color: darkblue;
+    box-sizing: border-box;
+    margin: 0;
+}
+#bottom{
+    width: 100%;
+    height: 450px;
+    background-color: coral;
+}
+[type]{
+    border: none;
+    width: 90%;
+    height: 20px;
+    background-color: whitesmoke;
+    border-bottom: 2px solid darkgrey;
+    margin-bottom: 1em;
+}
+#left h3{    
+    margin-bottom: 1em;
+}
+p{
+    margin-bottom: 0.3em;
+}
+#nameemail{
+    width: 50%;
+    float: left;
+    line-height: 0.8;
+}
+#phonesubject{
+    width: 50%;
+    float: left;
+    line-height: 0.8;
+}
+textarea{
+    width: 95%;
+    padding: 5px 0 0 5px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+button{
+    margin-top: 1.5em;
+    border: none;
+    padding: 10px 25px;
+    background-color: darkblue;
+    color: whitesmoke;
+    border-radius: 2em;
+    font-weight: bold;
+}
+#right{
+    color: whitesmoke;
+    padding: 1em;
+    box-sizing: border-box;
+}
+table{
+    margin-left: 0.5em;
+    font-size: 1em;
+}
+table th{
+    text-align: left;
+    font-weight: normal;
+}
+#right h3{
+    margin-left: 1.3em;
+}
